@@ -283,38 +283,38 @@
 		}
 		#wrapper>section:nth-of-type(1){
 			background-color: red;
-			background: url(../img/bg/_bg_1.png) no-repeat center;
+			background: url(../img/bg/bg_1.png) no-repeat center;
 			background-size: cover;
 			overflow: hidden;
 		}
 		#wrapper>section:nth-of-type(2){
 			background-color: green;
-			background: url(../img/bg/_bg_2.png) no-repeat center;
+			background: url(../img/bg/bg_2.png) no-repeat center;
 			background-size: cover;
 			overflow: hidden;
 		}
 		#wrapper>section:nth-of-type(3){
 			background-color: yellow;
-			background: url(../img/bg/_bg_3.png) no-repeat center;
+			background: url(../img/bg/bg_3.png) no-repeat center;
 			background-size:cover;
 			overflow: hidden;
 
 		}
 		#wrapper>section:nth-of-type(4){
 			background-color: purple;
-			background: url(../img/bg/_bg_4.png) no-repeat center;
+			background: url(../img/bg/bg_4.png) no-repeat center;
 			background-size: cover;
 			overflow: hidden;
 		}
 		#wrapper>section:nth-of-type(5){
 			background-color: purple;
-			background: url(../img/bg/_bg_5.png) no-repeat center;
+			background: url(../img/bg/bg_5.png) no-repeat center;
 			background-size: cover;
 			overflow: hidden;
 		}
 		#wrapper>section:nth-of-type(6){
 			background-color: purple;
-			background: url(../img/bg/_bg_6.png) no-repeat center;
+			background: url(../img/bg/bg_6.png) no-repeat center;
 			background-size: cover;
 			overflow: hidden;
 		}
