@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>금빛나-스토리보드(THE BODY SHOP)</title>
+	<!-- 폰트 -->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+	<!-- 파비콘 -->
+	<link rel="icon" href="img/favicon.ico" sizes="70x70" type="image/ico">
+	<!-- 폰트어썸(아이콘) -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	<!-- 애니메이트 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<!-- 제이쿼리 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- 마우스휠 플러그인 연결 -->
+    <script src="img/js/jquery.mousewheel.js"></script>
+    <!-- 스크롤 플러그인 연결 -->
+    <script src="img/js/skrollr.js"></script>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script src="js/myjs.js"></script>
+
+</head>
+<body>
+	<div id="wrapper">
+		<div id="black_bg"></div>
+		<!-- ----------------------------------------------------------------------------- -->
+		<!-- 1page -->
+		<section id="main">
+			<ul class="icon">
+				<li class="login_icon">Login</li>
+				<li class="sign_up_icon">Sign up</li>
+				<li class="cart_icon">Cart</li>
+			</ul>
+			<form action="#" method="get" class="login_modal">
+				<div>로그인</div>
+				<section class="id">
+					아이디 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="ID">
+				</section>
+				<section class="password">
+					비밀번호 &nbsp;&nbsp;&nbsp;<input type="password" placeholder="PASSWORD">
+				</section>
+				<section class="checkbox">
+					<input type="checkbox"> 아이디 저장 &nbsp; &nbsp;
+					<input type="checkbox"> 자동 로그인
+				</section>	
+				<section class="submit">
+					<input type="submit" value="로그인">
+					<input type="submit" value="닫기">
+				</section>
+			</form>
+			<form action="" method="get" class="sign_up_modal">
+				<div>회원가입</div>
+				<section class="id1">
+					아이디 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="ID">
+					<p>*사용자 ID는 3~20자 사이의 영문+숫자로 이루어져야 하며 영문으로 시작되어야 합니다.</p>
+				</section>
+				<section class="password1">
+					비밀번호 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" placeholder="PASSWORD">
+					<p>*비밀번호는 6~20자로 되어야 합니다.</p>
+				</section>
+				<section class="password2">
+					비밀번호 확인 &nbsp;&nbsp;&nbsp;<input type="password" placeholder="PASSWORD">
+				</section>
+				<section class="name">
+					이름 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="NAME">
+				</section>
+				<section class="birthday">
+					생년월일 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date">
+					<p>*생일에 할인 쿠폰을 선물해드립니다.</p>
+				</section>
+				<section class="submit1">
+					<input type="submit" value="가입완료">
+					<input type="submit" value="취소">
+				</section>
+			</form>
+			
+			<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+			<!-- 메뉴 버튼 -->
+			<input type="checkbox" id="menuicon">
+				<label for="menuicon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</label>
+			<!-- 메뉴 배경 -->
+			<nav id="nav_bg">
+				<!-- 메뉴 배경 -라인 -->
+				<label id="line">
+					<hr>
+					<hr>
+					<hr>
+					<hr>
+					<hr>
+					<hr>
+				</label>
+				<!-- 메뉴 로고 -->
+				<div id="logo"><a href="#main">main</a></div>
+				<ul>
+					<li><a href="#product">product</a></li>
+					<li><a href="#fragrance">fragrance</a></li>
+					<li><a href="#event">event</a></li>
+					<li><a href="#tip">tip</a></li>
+					<li><a href="#story">story</a></li>
+				</ul> 
+				<!-- 메뉴 sns -->
+				<div id="instagram"><a href="https://www.instagram.com/accounts/login/?next=/thebodyshop_korea/" target="_blank">instagram</a></div>
+				<div id="facebook"><a href="https://www.facebook.com/TheBodyShopKR/" target="_blank">facebook</a></div>
+				<!-- 메뉴 하단 footer -->
+				<div id="footer">
+					<p>(주)비에스케이코퍼레이션<br>
+						대표이사:박종호<br>
+						서울시 강남구 학동로 401 13층 
+						개인정보관리책임자:오미경공정거래위원회 고시 제 2000-1호에 따른 사업자등록번호 116-81-62784
+						<br><br>
+						고객센터 080-759-7700<br>
+						팩스 02-759-0788
+					</p>
+				</div>
+				<!-- 메인화면으로 가는 새 -->
+				<div id="bird">
+					<div class="wood"></div>
+					<div class="sit"></div>
+					<a class="bird_fly" href="#main">as main</a>
+				</div>
+			</nav>
+			<!-- 1page 타이틀 -->
+			<div class="title center"></div>
+			<!-- 1page 좌우 나뭇잎 -->
+			<div class="sub_bg_1 center"></div>
+			<div class="sub_bg_2_ani center"></div>
+			<div class="sub_bg_3 center"></div>
+			<!-- 1page 잔디 -->
+			<div class="sub_bg"></div>
+			<!-- 1page 나무 -->
+			<div class="sub_bg_tree center"></div>
+			<!-- 1page 둥둥떠다니는 나뭇잎 -->
+			<div class="leaf_1 center"></div>
+			<div class="leaf_2 center"></div>
+			<div class="leaf_3 center"></div>
+			<div class="leaf_4 center"></div>
+			<div class="leaf_5 center"></div>
+			<div class="leaf_6 center"></div>
+			<div class="leaf_7 center"></div>
+			<div class="leaf_8 center"></div>
+			<!-- 1page 스크롤다운 -->
+			<div class="scroll center">
+				<div class="scroll_down center"></div>
+			</div>
+			<!-- 1page 떨어지는 제품 -->
+			<div class=" p1_product1 center"></div>
+			<div class=" p1_product2 center"></div>
+			<div class=" p1_product3 center"></div>
+			<!-- 1page 제품 보러가기 라벨 -->
+			<div class="p1_label center">
+				<a href="#product" class="center">click!</a>
+			</div>
+			<!-- 1page 머리카락 날리는 캐릭터 -->
+			<div class="p1_cha1 center"></div>
+			<!-- 1page 신제품 모달창 -->
+			<div class="new_modal">
+				<a href="https://www.thebodyshop.co.kr/item/89176" target="_blank" class="new_modal_btn center"></a>
+				<i class="far fa-times-circle"></i>
+			</div>
+
+		</section>
+		<!-- ----------------------------------------------------------------------------- -->
+		<!-- 2page -->
+		<section id="product">
+			<!-- 2page 타이틀 -->
+			<div class="p2_title center"></div>
+			<!-- 2page 좌우 나뭇잎 -->
+			<div class="p2_sub_bg"></div>
+			<div class="p2_sub_bg_1 center"></div>
+			<div class="p2_sub_bg_2_ani center"></div>
+			<div class="p2_sub_bg_3 center"></div>
+			<div class="p2_sub_bg_4 center"></div>
+			<!-- 2page 제품dp 섬 -->
+			<div>
+				<div class="island island1"></div>
+				<div class="island island2"></div>
+				<div class="island island3"></div>
+				<div class="island island4"></div>
+			</div>
+			<!-- 2page 제품dp 섬(클릭시) -->
+			<div class="sub_island">
+				<div class="sub_island1 center"></div>
+				<div class="sub_island1-1 center"></div>
+			</div>
+			<div class="sub_island">	
+				<div class="sub_island2 center"></div>
+				<div class="sub_island2-1 center"></div>
+			</div>	
+			<div class="sub_island">	
+				<div class="sub_island3 center"></div>
+				<div class="sub_island3-1 center"></div>
+			</div>	
+			<div class="sub_island">	
+				<div class="sub_island4 center"></div>
+				<div class="sub_island4-1 center"></div>
+			</div>	
+			<!-- 2page 제품dp 타이틀 (클릭시) -->
+			<ol class="sub_title">
+				<li class="sub_title1"></li>
+				<li class="sub_title2"></li>
+				<li class="sub_title3"></li>
+				<li class="sub_title4"></li>
+			</ol>
+			<!-- 2page 기타 섬들 (클릭시) -->
+			<div class="etc_island1 center"></div>
+			<div class="etc_island2 center"></div>
+			<div class="etc_island3 center">
+				<!-- 풍차날개 -->
+				<div class="windmill center"></div>
+			</div>
+			<div class="etc_island4 center"></div>
+			<!-- 2page 라인별 모달창 -->
+			<ol class="p2_modal">
+				<li class="p2_modal1">
+					<div class="p2_cart_btn_box">
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+					</div>
+					<div class="black_hover_box">
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+					</div>
+					<div class="p2_xbtn"></div>
+				</li>
+				<li class="p2_modal2">
+					<div class="p2_cart_btn_box">
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+					</div>
+					<div class="black_hover_box">
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+					</div>
+					<div class="p2_xbtn"></div>
+				</li>
+				<li class="p2_modal3">
+					<div class="p2_cart_btn_box">
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+					</div>
+					<div class="black_hover_box">
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+					</div>
+					<div class="p2_xbtn"></div>
+				</li>
+				<li class="p2_modal4">
+					<div class="p2_cart_btn_box">
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+						<div class="p2_cart_btn"></div>
+					</div>
+					<div class="black_hover_box">
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+						<div class="black_hover">자세히보기</div>
+					</div>
+					<div class="p2_xbtn"></div>
+				</li>
+			</ol>
+			<!-- <i class="fas fa-times"></i> -->
+			<!-- 2page 센터 텍스트 -->
+			<div class="p2_text center"></div>
+			<!-- 2page 제품보는 캐릭터 -->
+			<div class="p2_cha center"></div>
+			<!-- 기어다니는 무당벌레 -->
+			<div class="p2_ladybug_box center">
+				<div class="p2_ladybug center"></div>
+			</div>
+
+		</section>
+
+		<!-- ----------------------------------------------------------------------------- -->
+		<!-- 3page -->
+		<section id="fragrance">
+			<!-- 3page 타이틀 -->
+			<div class="p3_title center"></div>
+			<!-- 3page 꽃잎 -->
+			<div class="p3_flower">
+				<div data-bottom="top:0px; left:40px" data-center="top:300px; left:100px" data-top="top:710px; left:150px"></div>
+				<div data-bottom="top:50px; left:200px" data-center="top:70px; left:500px" data-top="top:100px; left:800px"></div>
+				<div data-bottom="top:100px; left:200px" data-center="top:400px; left:350px" data-top="top:730px; left:500px"></div>
+				<div data-bottom="top:0px; left:50px" data-center="top:150px; left:120px" data-top="top:300px; left:200px"></div>
+				<div></div>
+				<div data-bottom="top:30px; left:400px" data-center="top:100px; left:420px" data-top="top:200px; left:440px"></div>
+				<div data-bottom="top:-10px; left:300px" data-center="top:100px; left:450px" data-top="top:250px; left:600px"></div>
+				<div data-bottom="top:0px; left:1000px" data-center="top:200px; left:1200px" data-top="top:500px; left:1400px"></div>
+				<div data-bottom="top:0px; left:300px" data-center="top:70px; left:350px" data-top="top:150px; left:350px"></div>
+				<div></div>
+				<div></div>
+				<div data-bottom="top:0px; left:1200px" data-center="top:200px; left:1300px" data-top="top:500px; left:1400px"></div>
+			</div>
+
+			<!-- 3page 향수 제품 (캐로셀)-->
+			<div id="p3_product">
+				<ol class="p3_gallery">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+		    	</ol>
+		    	<ol class="p3_text">
+					<li>
+						<div class="get">
+						<div class="cart_btn">장바구니</div>
+						<div class="get_btn">구매하기</div>
+					</div>	
+					</li>
+					<li>
+						<div class="get">
+						<div class="cart_btn">장바구니</div>
+						<div class="get_btn">구매하기</div>
+					</div>	
+					</li>
+					<li>
+						<div class="get">
+						<div class="cart_btn">장바구니</div>
+						<div class="get_btn">구매하기</div>
+					</div>	
+					</li>
+					<li>
+						<div class="get">
+						<div class="cart_btn">장바구니</div>
+						<div class="get_btn">구매하기</div>
+					</div>	
+					</li>
+		    	</ol>
+		    	<ol class="p3_btn_set">
+					<li class="p3_active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+		    	</ol>
+			</div>
+			<i class="fas fa-chevron-left"></i>
+			<i class="fas fa-chevron-right"></i>	
+			<!-- 3page 영상 아이콘    -->
+			<div class="video_icon_box">
+				<div class="video_icon"></div>
+				<p>special<br>영상보기</p>
+			</div>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/pXrPuqhSZbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="media_xbtn"></div>
+
+			<!-- 3page 향기맡는 캐릭터 -->
+			<div class="p3_cha center"></div>
+		</section>
+
+		<!-- ----------------------------------------------------------------------------- -->
+		<!-- 4page -->
+		<section id="event">
+			<!-- 4page 타이틀 -->
+			<div class="p4_title center"></div>
+			<!-- 4page 전등 -->
+			<div class="p4_lamp center"></div>
+			<!-- 4page 잔디 -->
+			<div class="p4_sub_bg"></div>
+			<!-- 4page 좌우 나뭇잎 -->
+			<div class="p4_sub_bg_1 center"></div>
+			<div class="p4_sub_bg_2 center"></div>
+			<!-- 4page 이벤트창  -->
+			<div id="event_board">
+				<ol class="event_content">
+					<li></li>
+					<li></li>
+					<li></li>
+		    	</ol>
+		    	<ol class="event_btn_set">
+					<li class="p4_active"></li>
+					<li></li>
+					<li></li>
+		    	</ol>
+		    	<div class="p4_btn tip_left"></div>
+				<div class="p4_btn tip_right"></div>
+			<!-- 4page 이벤트창 위에 넝쿨  -->
+		    <div class="vine"></div>
+			</div>
+			<!-- 4page 열기구 -->
+			<div class="p4_airballoon_e center"></div>
+			<div class="last_event">
+				<div class="last_event_btn"></div>
+				<div class="p4_xbtn1"></div>
+			</div>
+			<div class="p4_airballoon_c center"></div>
+			<div class="campaign center">
+				<div class="p4_xbtn2"></div>
+			</div>
+			<div class="deer center"></div>
+			<!-- 4page 구름 -->
+			<div class="p4_cloud1 center"></div>
+			<div class="p4_cloud2 center"></div>
+			<div class="p4_cloud3 center"></div>
+			<div class="p4_cloud4 center"></div>
+			<!-- 4page 춤추는 캐릭터 -->
+			<div class="p4_cha1 center"></div>
+			<div class="p4_cha2 center"></div>
+		</section>
+
+		<!-- ----------------------------------------------------------------------------- -->
+		<!-- 5page -->
+		<section id="tip">
+			<!-- 5page 타이틀 -->
+			<div class="p5_title center"></div>
+			<!-- 5page 잔디 -->
+			<div class="p5_sub_bg"></div>
+			<!-- 5page 좌우 나뭇잎 -->
+			<div class="p5_sub_bg_1 center"></div>
+			<div class="p5_sub_bg_1_ani center"></div>
+			<div class="p5_sub_bg_2 center"></div>
+			<div class="p5_sub_bg_2_ani center"></div>
+			<!-- 5page  구름 -->
+			<div class="p5_cloud">
+				<div></div>
+				<div></div>
+			</div>
+			<!-- 5page Tip -->
+			<div class="tip_wood1 center">
+				<div class="tip_parents1 center">
+					<div class="tip1">
+						<span>스킵 케어의 첫 도전, 스킨 디펜스 </span>
+					</div>
+				</div>
+			</div>
+			<div class="tip_wood2 center">
+				<div class="tip_parents2 center">
+					<div class="tip2 center">
+						<span>올바르게 손 씻는 방법!</span>
+					</div>
+				</div>
+			</div>
+			<div class="tip_wood3 center">
+				<div class="tip_parents3 center">
+					<div class="tip3 center">
+						<span>하루 10분, 내 몸을 위한 드라이 바디 브러싱!</span>
+					</div>
+				</div>
+			</div>
+			<!-- .5page Tip-모달창 -->
+			<div class="tip_modal_bg center">
+				<div class="p5_xbtn"></div>
+				<div class="tip_modalbox center">
+					<div class="tip_modal"><a href="https://www.thebodyshop.co.kr/display/category/line/5" target="_blank" class="tip_modal_btn">관련 제품 보러가기</a></div>
+					<div class="tip_modal"><a href="https://www.thebodyshop.co.kr/display/category/165" target="_blank" class="tip_modal_btn">관련 제품 보러가기</a></div>
+					<div class="tip_modal"><a href="https://www.thebodyshop.co.kr/item/94655" target="_blank" class="tip_modal_btn">관련 제품 보러가기</a></div>
+				</div>
+			</div>
+			<div class="p5_tipclick center"></div>
+			<div class="p5_click center"></div>
+		</section>
+
+		<!-- ----------------------------------------------------------------------------- -->
+		<!-- 6page -->
+		<section id="story">
+			<!-- 6page 타이틀 -->
+			<div class="p6_title center"></div>
+			<!-- 6page 둥둥떠다니는 나뭇잎 -->
+			<div class="p6_leaf_1 center"></div>
+			<div class="p6_leaf_2 center"></div>
+			<div class="p6_leaf_3 center"></div>
+			<div class="p6_leaf_4 center"></div>
+			<div class="p6_leaf_5 center"></div> 
+			<!-- 6page 탭컨텐츠 -->
+			<div class="tab_contents center">
+				<nav>
+					<ul>
+						<li class="active"><span>더바디샵의 시작</span></li>
+						<li><span>더바디샵 히스토리</span></li>
+						<li><span>캠페인</span></li>
+						<li><span>윤리무역</span></li>
+					</ul>
+				</nav>
+				<div class="content"><div class="img"></div></div>
+				<div class="content"><div class="img"></div></div>
+				<div class="content"><div class="img"></div></div>
+				<div class="content"><div class="img"></div></div>
+				<!-- 돌아가는 지구 -->
+				<div class="earth"></div>
+				<div class="earth_modal center">
+					<i class="far fa-times-circle"></i>
+				</div>
+			</div>
+			<!-- 6page 선언문 손나무 -->
+			<div class="manifesto_enrich center"></div>
+			<p class="p6_clicktext center">클릭해주세요</p>
+			<div class="p6_click center"></div>
+			<div class="manifesto_enrich_modal center">
+				<i class="far fa-times-circle"></i>
+			</div>
+			<!-- 6page 잔디 -->
+			<div class="p6_sub_bg"></div>
+			<!-- 6page 동물들 -->
+			<div class="bear center"></div>
+			<div class="squirrel center"></div>
+			<div class="squirrel2 center"></div>
+			<div class="butterfly_box center">
+				<div class="butterfly"></div>
+			</div>
+		</section>
+	</div>	
+</body>
+</html>
